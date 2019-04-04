@@ -1,0 +1,17 @@
+ssh -i 44507143.pem ubuntu@ec2-13-210-246-9.ap-southeast-2.compute.amazonaws.com
+ubuntu@ip-172-31-18-18:~$ ls
+data1
+ubuntu@ip-172-31-18-18:~$ cd data1
+ubuntu@ip-172-31-18-18:~/data1$ ls
+2013_Book_ComputationalBiology.pdf  
+44507143AlishaAlishaTHQ1.pdf  tutes.txt
+ubuntu@ip-172-31-18-18:~/data1$ grep -E "\-[0-9]+" 2013_Book_ComputationalBiology.pdf
+Binary file 2013_Book_ComputationalBiology.pdf matches
+ubuntu@ip-172-31-18-18:~/data1$ grep -E "^(([\w]+)([\w]+)([\w]+)){1}$" 2013_Book_ComputationalBiology.pdf
+ubuntu@ip-172-31-18-18:~/data1$ ubuntu@ip-172-31-18-18:~/data1$ ls
+2013_Book_ComputationalBiology.txt  Decimal_Test.txt
+44507143AlishaAlishaTHQ1.pdf        Example.txt       sed.txt    tutes.txt
+ubuntu@ip-172-31-18-18:~/data1$ grep -E "(^|\s+)\-*([0-9]+)*(\.[0-9]+)(^|\s+)" Example.txt
+Edit the Expression &  -9.8 Text hydrogenase to see matches. Roll over matches or the expression for details. PCRE & Javascript flavors of RegEx are s de hydrogenase upported.
+ubuntu@ip-172-31-18-18:~/data1$ grep -E "\b(hydrogenase\b)" Example.txt
+Edit the Expression &  -9.8 Text hydrogenase to see matches. Roll over matches or the expression for details. PCRE & Javascript flavors of RegEx are s de hydrogenase upported.
