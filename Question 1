@@ -1,0 +1,6 @@
+ssh -i 44507143.pem ubuntu@ec2-13-210-246-9.ap-southeast-2.compute.amazonaws.com
+ubuntu@ip-172-31-18-18 $Ls
+data1
+ubuntu@ip-172-31-18-18 $cd data1
+ubuntu@ip-172-31-18-18$data1 $ls
+2013_Book_ComputationalBiology.pdf
